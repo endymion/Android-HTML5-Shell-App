@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.android_html5_shell_app" android:versionName="1.0.0" android:versionCode="1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk android:minSdkVersion="13" 
+          android:targetSdkVersion="13"
+          android:maxSdkVersion="13" />
+    
+    <application android:icon="@drawable/icon" android:label="android-html5-shell-app">
+
+        <activity android:name=".WebKitShell">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
